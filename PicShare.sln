@@ -1,6 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicShare", "PicShare\PicShare.csproj", "{4DECE040-26C1-4865-8F39-526ACCC1CD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{AA122DEE-680C-4233-81E4-9F27713A9A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{FD6869B4-06B2-4471-A393-202358C09818}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +19,19 @@ Global
 		{4DECE040-26C1-4865-8F39-526ACCC1CD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DECE040-26C1-4865-8F39-526ACCC1CD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DECE040-26C1-4865-8F39-526ACCC1CD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA122DEE-680C-4233-81E4-9F27713A9A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA122DEE-680C-4233-81E4-9F27713A9A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA122DEE-680C-4233-81E4-9F27713A9A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA122DEE-680C-4233-81E4-9F27713A9A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6869B4-06B2-4471-A393-202358C09818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6869B4-06B2-4471-A393-202358C09818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6869B4-06B2-4471-A393-202358C09818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6869B4-06B2-4471-A393-202358C09818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92C85D56-72A7-46FD-839F-6ADB1896B569}
 	EndGlobalSection
 EndGlobal
