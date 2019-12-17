@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    class Like
+    class CommentLike
     {
         public int Id { get; set; }
         public DateTime Time { get; set; }

@@ -8,10 +8,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BLL
 {
-    class Geotag
+    class PostLike
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public ICollection<Post> Posts { get; set; }
+        public int CommentId { get; set; }
+        public DateTime Time { get; set; }
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
     }
 }
